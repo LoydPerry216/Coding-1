@@ -13,7 +13,7 @@ print('Coding Class')
 # input() is a built in function. It allows us to write and pass in
 # data into our program from the terminal
 # name = input('what is your name?')
-print(name)
+print()
 
 number= int(input('please provide a number'))
 print(23*number)
@@ -32,6 +32,26 @@ def sandwichInstructions():
     # the function definition
     # the function call
 
-
  #this is a function call
- sandwichInstructions()        
+
+# 11/20/24
+
+# functions using arithmetic operators
+
+def depositMoney(x):
+    checkAccount= 100
+    print('money has been deposited successfully')
+    print('new checking account balance is below: ')
+    print(checkAccount - x)
+
+depositMoney(35)
+depositMoney(200)
+depositMoney(95)
+
+def withdraw():
+    def checkAccountBalance():
+        checkAccount = 1000
+        print('here is your current check account balance:')
+        print(checkAccount)
+
+        checkAccountBalance()
