@@ -1,14 +1,14 @@
-#def check_number(num):
-    #if num > 0:
-        #return "This is a positive number."
-    #elif num < 0:
-        #return "This is a negative number."
-    #else:
-        #return "This is zero."
+def check_number(num):
+    if num > 0:
+        return "This is a positive number."
+    elif num < 0:
+        return "This is a negative number."
+    else:
+        return "This is zero."
 
-#print(check_number(10))   
-#print(check_number(-12))  
-#print(check_number(0))    
+print(check_number(10))   
+print(check_number(-12))  
+print(check_number(0))    
 
 
 
